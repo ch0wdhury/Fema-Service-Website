@@ -1,0 +1,138 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	/* background-color: #F1F3F4; */
+}
+
+/* Header Section Starts Here */
+header {
+	background-color: #000;
+	border-top: 5px solid #099FE5;
+	border-bottom: 2px solid #099FE5;
+}
+.custom_brand {
+	width: 15%;
+}
+.custom_toggler {
+	height: 1em;
+	color: #fff;
+}
+.custom_nav {
+	text-align: right;
+}
+.custom_nav li {
+	margin-right: 30px;
+}
+.custom_nav li a {
+	color: #fff;
+	float: right;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 25px;
+	text-transform: uppercase;
+	transition: .5s ease;
+}
+.custom_nav li a:hover {
+	color: #099FE5;
+	border-radius: 25px;
+}
+/* Header Section Ends Here */
+/* Carousel Section Starts Here */
+.custom_caption {
+	position: absolute;
+	top: 30%;
+}
+.custom_caption h1 {
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+.custom_caption a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid #000;
+	background-color: #000;
+	transition: .5s ease;
+}
+.custom_caption a:hover {
+	color: #099FE5;
+	padding: 10px 20px;
+}
+/* Carousel Section Ends Here */
+/* Service Sections Starts Here */
+.service {
+	margin: 100px auto;
+}
+.service_content {
+	margin: 20px auto;
+}
+/* Service Sections Ends Here */
+/* Happy Client Section Starts */
+.client {
+	min-height: 500px;
+}
+.client_header {
+	margin: 200px auto;
+}
+/* Happy Client Section Ends */
+/* Contact Us Section Starts Here */
+.contact {
+	margin: 50px auto;
+}
+.contact_header h2 {
+	font-weight: 700;
+}
+.contact_header hr {
+	border: 1px solid #099FE5;
+}
+.contact_form button {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid #000;
+	background-color: #000;
+	margin-top: 10px;
+	transition: .5s ease;
+}
+.contact_form button:hover {
+	color: #099FE5;
+	padding: 10px 20px;
+}
+.social_icons {
+	margin-top: 50px;
+}
+.social_icons li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 35px;
+	transition: .5s ease;
+}
+.social_icons li a:hover {
+	color: #099FE5;
+}
+/* Contact Us Section Ends Here */
+/* Footer Section Starts Here */
+footer {
+	background-color: #000;
+	color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+	padding-top: 15px;
+	font-weight: 300;
+	border-top: 2px solid #099FE5;
+	border-bottom: 5px solid #099FE5;
+}
+footer p {
+	font-size: 14px;
+}
+/* Footer Section Ends Here */
